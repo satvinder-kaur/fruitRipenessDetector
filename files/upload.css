@@ -1,0 +1,61 @@
+body{
+    font-family: 'Shrikhand', serif;
+}
+.titleName{
+    margin:10px 0px;
+    background-color:#AF2655;
+    color:#AF2655;
+    padding:5px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.grpName{
+    text-align: center;
+    font-size:2rem;
+}
+
+.upload-container{
+    background-image: url(images/uploadBg.jpg);
+    padding:100px 50px 150px 50px;
+    background-size: cover;
+
+}
+
+.main-upload{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFE1E1;
+    width:50%;
+    padding:70px 50px;
+    margin:auto;
+    text-align: center;
+    border: 10px #AF2655 solid;
+    border-radius: 5%;
+}
+
+#submit{
+    margin: 20px;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    font-weight: 600;
+    border-color:#AF2655;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:#AF2655;
+}
+#submit:hover {
+    background: #da0952a2;
+  }
+
+#result{
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    color:#2f6627;
+}

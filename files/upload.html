@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Pictures</title>
+    <link rel="stylesheet" href="upload.css">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="titleName">
+        <p class="grpName">ByteBabes</p>
+    </div>
+    <div class="upload-container">
+
+        <div class="main-upload">
+
+            <h2>Upload the picture </h2>
+
+            <input type="file" id="files" name="select" accept="image/*">
+            <br>
+            <output id="uploadedImg"></output>
+            <br>
+            <button type="submit" id="submit"  onclick="calculateRipeness()">Predict Ripeness</button>
+            <div id="result"></div>
+        </div>
+
+
+    </div>
+    <script src="upload.js"></script>
+</body>
+
+
+</html>
